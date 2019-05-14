@@ -1,0 +1,87 @@
+/*
+
+brand
+font-family: 'Niconne', cursive; 
+
+Header
+font-family: 'Sorts Mill Goudy', serif;
+
+p
+font-family: 'Comfortaa', cursive;
+
+
+*/ 
+
+
+
+
+.brandtypo{
+    font-family: 'Niconne',cursive; 
+    
+   
+}
+
+.brandsm{
+    font-size: 25px; 
+}
+
+.brandxl{
+    font-size: 100px; 
+}
+.brandC{
+    font-size: 35px; 
+}
+
+.navbar{
+   
+}
+
+
+
+
+.navbar-light{
+
+        color: white;
+    
+}
+
+.bg-nav{
+
+    background-color: transparent; 
+ 
+    
+}
+
+
+.aboutsections{
+    width: 100vw; 
+    height: 75vh; 
+    background-color: #fff2f5; 
+}
+.pagesections{
+    width: 100vw; 
+    height: 100vh; 
+    background-color: #ff8282; 
+}
+
+
+#header{
+    background-image: url(../img/cookies-min.jpg); 
+    background-size: contain; 
+    color: white; 
+    transform: skewX(90deg); 
+    
+    
+}
+
+.mainheader{
+    padding: 25vh; 
+}
+
+
+
+
+
+
+
+.sm-img{}
