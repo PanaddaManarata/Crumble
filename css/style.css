@@ -10,78 +10,145 @@ p
 font-family: 'Comfortaa', cursive;
 
 
-*/ 
+*/
 
 
-
-
-.brandtypo{
-    font-family: 'Niconne',cursive; 
-    
-   
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Sorts Mill Goudy', serif;
 }
 
-.brandsm{
-    font-size: 25px; 
-}
-
-.brandxl{
-    font-size: 100px; 
-}
-.brandC{
-    font-size: 35px; 
-}
-
-.navbar{
-   
+p {
+    font-family: 'Comfortaa', cursive;
+    text-align: left;
 }
 
 
+.brandtypo {
+    font-family: 'Niconne', cursive;
 
 
-.navbar-light{
-
-        color: white;
-    
 }
 
-.bg-nav{
+.slogan {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    display: inline;
+    padding: 5px;
+    margin-top: -40px;
 
-    background-color: transparent; 
- 
-    
 }
 
-
-.aboutsections{
-    width: 100vw; 
-    height: 75vh; 
-    background-color: #fff2f5; 
-}
-.pagesections{
-    width: 100vw; 
-    height: 100vh; 
-    background-color: #ff8282; 
+.brandsm {
+    font-size: 25px;
 }
 
 
-#header{
-    background-image: url(../img/cookies-min.jpg); 
-    background-size: contain; 
-    color: white; 
-    transform: skewX(90deg); 
-    
-    
+.brandC {
+    font-size: 35px;
 }
 
-.mainheader{
-    padding: 25vh; 
+.brandxl {
+    color: white;
+    font-size: 130px;
+    ;
+}
+
+.brandC2 {
+    110px;
+}
+
+
+
+.navbar {
+    z-index: 2;
 }
 
 
 
 
+.navbar-costume {}
+
+.bg-nav {
+    width: 100vw;
+    background-color: white;
+    opacity: 0.8;
+}
+
+a {
+    color: #15b2d6;
+    padding-left: 20px;
+    text-align: center;
+    opacity: 1;
+    z-index: 1;
+    font-family: 'Comfortaa', cursive;
+}
+
+a:hover {
+    color: #a38a8a;
+}
+
+.nav-item {
+    padding-left: 20px;
+    font-weight: bolder;
+
+
+}
+
+button {}
+
+.navbar-toggler-icon {
+    background-image: url(../img/button-menu.png);
+    padding: 20px;
+}
+
+.aboutsections {
+    width: 100vw;
+    background-color: #fff2f5;
+}
+
+.pagesections {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ff8282;
+}
+
+#header {
+    background-image: linear-gradient(rgba(217, 216, 199, 0.44), rgba(253, 238, 178, 0.22), transparent), url(../img/closeup-cookies.png);
+    background-size: cover;
+    color: white;
+
+
+}
+
+.probootstrap-heading {
+    z-index: 1;
+}
+
+.mainheader {
+    padding: 25vh;
+}
+
+
+.toggler-icon-dots {
+    background-image: url(../img/more-button-interface-symbol-of-three-horizontal-aligned-dots2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 
 
-.sm-img{}
+.sm-img {
+    width: 450px;
+}
+
+.firstletter {
+    font-size: 30px;
+    font-family: 'Niconne', cursive;
+}
