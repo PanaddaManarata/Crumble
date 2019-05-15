@@ -1,0 +1,61 @@
+/* line 6, /home/test/Desktop/becode_projects/Crumble/css/Contact.scss */
+body {
+    background-color: #f0f0f0;
+}
+
+/* line 11, /home/test/Desktop/becode_projects/Crumble/css/Contact.scss */
+#contactUS .btn-success {
+    background-color: #2a9c9d;
+}
+
+/* line 15, /home/test/Desktop/becode_projects/Crumble/css/Contact.scss */
+footer {
+    background-color: #2a9c9d;
+}
+
+/* line 18, /home/test/Desktop/becode_projects/Crumble/css/Contact.scss */
+footer h6 {
+    color: #f78e43;
+}
+
+/* line 22, /home/test/Desktop/becode_projects/Crumble/css/Contact.scss */
+footer p {
+    color: #fdb078;
+}
+
+/* line 26, /home/test/Desktop/becode_projects/Crumble/css/Contact.scss */
+footer p a {
+    color: #fdb078;
+}
+
+/* line 29, /home/test/Desktop/becode_projects/Crumble/css/Contact.scss */
+footer p a:hover {
+    color: #f78e43;
+}
+
+/* line 34, /home/test/Desktop/becode_projects/Crumble/css/Contact.scss */
+footer .btn-sm {
+    border-radius: 50%;
+    background-color: #f0f0f0;
+}
+
+/* line 39, /home/test/Desktop/becode_projects/Crumble/css/Contact.scss */
+footer .fab {
+    color: #2a9c9d;
+}
+
+/* line 44, /home/test/Desktop/becode_projects/Crumble/css/Contact.scss */
+#Openinghours th {
+    background-color: #2a9c9d;
+    color: white;
+}
+
+
+#Openinghours {}
+
+/* line 49, /home/test/Desktop/becode_projects/Crumble/css/Contact.scss */
+tr:nth-child(even) {
+    background-color: #fdb078;
+}
+
+/*# sourceMappingURL=Contact.css.map */

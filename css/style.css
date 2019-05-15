@@ -13,6 +13,10 @@ font-family: 'Comfortaa', cursive;
 */
 
 
+
+
+
+
 h1,
 h2,
 h3,
@@ -20,12 +24,17 @@ h4,
 h5,
 h6 {
     font-family: 'Sorts Mill Goudy', serif;
+    padding-bottom: 20px;
+    color: #055252;
 }
 
-p {
+p,
+table {
     font-family: 'Comfortaa', cursive;
     text-align: left;
+    color: #044545;
 }
+
 
 
 .brandtypo {
@@ -76,7 +85,8 @@ p {
 .navbar-costume {}
 
 .bg-nav {
-    width: 100vw;
+    margin-top: -50px;
+    width: 100%;
     background-color: white;
     opacity: 0.8;
 }
@@ -109,23 +119,52 @@ button {}
 }
 
 .aboutsections {
-    width: 100vw;
-    background-color: #fff2f5;
+
+    width: 100%;
+    background-color: #ffdfb4;
+    ;
 }
 
 .pagesections {
-    width: 100vw;
-    height: 100vh;
-    background-color: #ff8282;
+    width: 100%;
+    min-height: 100vh;
+
+    margin-top: -10px;
+    ;
 }
 
 #header {
     background-image: linear-gradient(rgba(217, 216, 199, 0.44), rgba(253, 238, 178, 0.22), transparent), url(../img/closeup-cookies.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    max-height: 100vw;
 
 
 }
+
+#history {
+    background-color: snow
+}
+
+#gallery {
+    background-color: #ffdfb4;
+}
+
+#contact {
+
+
+    padding-top: 100px;
+    margin-top: ;
+
+
+    background-color: #dae3ff;
+}
+
+
+
 
 .probootstrap-heading {
     z-index: 1;
@@ -151,4 +190,13 @@ button {}
 .firstletter {
     font-size: 30px;
     font-family: 'Niconne', cursive;
+}
+
+
+
+
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }

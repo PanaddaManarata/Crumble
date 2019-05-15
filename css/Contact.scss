@@ -1,0 +1,51 @@
+$color: #2a9c9d;
+$textcolor: #fdb078;
+$darktextcolor: #f78e43;
+$sectionbackgroundcolor: #f0f0f0;
+
+body {
+    background-color: $sectionbackgroundcolor;
+}
+
+
+#contactUS .btn-success {
+    background-color: $color;
+}
+
+footer {
+    background-color: $color;
+
+    h6 {
+        color: $darktextcolor;
+    }
+
+    p {
+        color: $textcolor;
+    }
+
+    p a {
+        color: $textcolor;
+
+        &:hover {
+            color: $darktextcolor;
+        }
+    }
+
+    .btn-sm {
+        border-radius: 50%;
+        background-color: $sectionbackgroundcolor;
+    }
+
+    .fab {
+        color: $color;
+    }
+}
+
+#Openinghours th {
+    background-color: $color;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: $textcolor;
+}
