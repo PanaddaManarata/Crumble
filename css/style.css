@@ -75,7 +75,7 @@ table {
 }
 
 .brandC2 {
-    110px;
+    font-size: 135px;
 }
 
 
@@ -133,7 +133,6 @@ button {}
 .pagesections {
     width: 100%;
     min-height: 100vh;
-
     margin-top: -10px;
     ;
 }
@@ -145,16 +144,25 @@ button {}
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    max-height: 100vw;
-
-
+    max-height: 100vh;
 }
+
+.space {
+    background-image: linear-gradient(rgba(217, 216, 199, 0.44), rgba(253, 238, 178, 0.22), transparent), url(../img/closeup-cookies.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 45vh;
+}
+
 
 #history {
     background: #CCFFFF;
     background: -webkit-linear-gradient(bottom left, #CCFFFF, #F3FCFB);
     background: -moz-linear-gradient(bottom left, #CCFFFF, #F3FCFB);
-    background: linear-gradient(bottom left, #CCFFFF, #F3FCFB);
+    background: linear-gradient(to bottom left, #CCFFFF, #F3FCFB);
     background-size: cover;
 }
 
@@ -165,8 +173,7 @@ button {}
 #contact {
 
 
-    padding-top: 100px;
-    margin-top: ;
+    padding-top: 30px;
 
 
     background-color: #dae3ff;
@@ -193,11 +200,11 @@ button {}
 
 
 .sm-img {
-    width: 450px;
+    width: 100%;
 }
 
 .firstletter {
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Niconne', cursive;
     line-height: 0.6;
 
@@ -234,5 +241,13 @@ section {
     padding-right: 12px;
     margin-top: -4px;
     margin-bottom: 20px;
-    padding-bottom: none;
+    padding-bottom: 0;
+}
+
+.card-deck {
+    min-height: 100%;
+}
+
+.card-nad {
+    height: 100%;
 }
