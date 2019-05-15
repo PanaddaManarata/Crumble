@@ -19,12 +19,17 @@ font-family: 'Comfortaa', cursive;
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
     font-family: 'Sorts Mill Goudy', serif;
     padding-bottom: 20px;
+    color: #055252;
+}
+
+h3 {
+    font-family: 'Sorts Mill Goudy', serif;
+
     color: #055252;
 }
 
@@ -146,7 +151,11 @@ button {}
 }
 
 #history {
-    background-color: snow
+    background: #CCFFFF;
+    background: -webkit-linear-gradient(bottom left, #CCFFFF, #F3FCFB);
+    background: -moz-linear-gradient(bottom left, #CCFFFF, #F3FCFB);
+    background: linear-gradient(bottom left, #CCFFFF, #F3FCFB);
+    background-size: cover;
 }
 
 #gallery {
@@ -190,6 +199,8 @@ button {}
 .firstletter {
     font-size: 30px;
     font-family: 'Niconne', cursive;
+    line-height: 0.6;
+
 }
 
 
@@ -199,4 +210,29 @@ button {}
 section {
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+
+
+/*card*/
+.card-body {
+    display: inline;
+}
+
+.history-text {
+    font-family: 'Comfortaa', cursive;
+    color: rgb(95, 122, 122);
+    font-size: 13.5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: -2px;
+    margin-bottom: -15px;
+}
+
+.history-title {
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: -4px;
+    margin-bottom: 20px;
+    padding-bottom: none;
 }

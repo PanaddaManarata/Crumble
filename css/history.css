@@ -1,0 +1,41 @@
+.card-body {
+    display: inline;
+}
+
+.firstletter {
+    font-family: 'Niconne', cursive;
+    font-size: 30px;
+    line-height: 0.6;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.historyh3 {
+    font-family: 'Sorts Mill Goudy', serif;
+    color: rgb(233, 150, 112);
+}
+
+
+#alli {}
+
+#stack,
+#twocook,
+#product {
+    max-height: 50px;
+}
+
+.credit {
+    color: rgb(190, 190, 190);
+    font-size: 12px;
+}
+
+.credit a {
+    text-decoration: none;
+    color: rgb(170, 170, 170);
+}
+
+.credit a:hover {
+    color: rgb(190, 190, 190);
+}
