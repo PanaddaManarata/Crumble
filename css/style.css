@@ -11,243 +11,273 @@ font-family: 'Comfortaa', cursive;
 
 
 */
-
-
-
-
-
+html {
+  scroll-behavior: smooth;
+}
 
 h1,
 h2,
 h4,
 h5,
 h6 {
-    font-family: 'Sorts Mill Goudy', serif;
-    padding-bottom: 20px;
-    color: #055252;
+  font-family: 'Sorts Mill Goudy', serif;
+  padding-bottom: 20px;
+  color: #055252;
 }
 
 h3 {
-    font-family: 'Sorts Mill Goudy', serif;
-
-    color: #055252;
+  font-family: 'Sorts Mill Goudy', serif;
+  color: #055252;
 }
 
 p,
 table {
-    font-family: 'Comfortaa', cursive;
-    text-align: left;
-    color: #044545;
+  font-family: 'Comfortaa', cursive;
+  text-align: left;
+  color: #044545;
 }
 
-
-
-.brandtypo {
-    font-family: 'Niconne', cursive;
-
-
+header {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(217, 216, 199, 0.44)), color-stop(rgba(253, 238, 178, 0.22)), to(transparent)), url(../img/closeup-cookies.png);
+  background-image: linear-gradient(rgba(217, 216, 199, 0.44), rgba(253, 238, 178, 0.22), transparent), url(../img/closeup-cookies.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  max-height: 100vh;
+  width: 100%;
+  min-height: 100vh;
+  margin-top: -10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.slogan {
-    font-size: 25px;
-    text-align: center;
-    font-weight: bolder;
-    color: white;
-    display: inline;
-    padding: 5px;
-    margin-top: -40px;
-
+header .brandtypo {
+  font-family: 'Niconne', cursive;
 }
 
-.brandsm {
-    font-size: 25px;
+header .slogan {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+  display: inline;
+  padding: 5px;
+  margin-top: -40px;
 }
 
-
-.brandC {
-    font-size: 35px;
+header .brandsm {
+  font-size: 25px;
 }
 
-.brandxl {
-    color: white;
-    font-size: 130px;
-    ;
+header .brandC {
+  font-size: 35px;
 }
 
-.brandC2 {
-    font-size: 135px;
+header .brandxl {
+  color: white;
+  font-size: 130px;
 }
 
-
-
-.navbar {
-    z-index: 2;
+header .brandC2 {
+  font-size: 135px;
 }
 
-
-
-
-.navbar-costume {}
-
-.bg-nav {
-    margin-top: -50px;
-    width: 100%;
-    background-color: white;
-    opacity: 0.8;
+header .navbar {
+  z-index: 2;
 }
 
-a {
-    color: #15b2d6;
-    padding-left: 20px;
-    text-align: center;
-    opacity: 1;
-    z-index: 1;
-    font-family: 'Comfortaa', cursive;
+header .bg-nav {
+  margin-top: -50px;
+  width: 100%;
+  background-color: white;
+  opacity: 0.8;
 }
 
-a:hover {
-    color: #a38a8a;
+header a {
+  color: #15b2d6;
+  padding-left: 20px;
+  text-align: center;
+  opacity: 1;
+  z-index: 1;
+  font-family: 'Comfortaa', cursive;
 }
 
-.nav-item {
-    padding-left: 20px;
-    font-weight: bolder;
-
-
+header a:hover {
+  color: #a38a8a;
 }
 
-button {}
+header .nav-item {
+  padding-left: 20px;
+  font-weight: bolder;
+}
 
-.navbar-toggler-icon {
-    background-image: url(../img/button-menu.png);
-    padding: 20px;
+header .navbar-toggler-icon {
+  background-image: url(../img/button-menu.png);
+  padding: 20px;
+}
+
+header .probootstrap-heading {
+  z-index: 1;
+}
+
+header .mainheader {
+  padding: 25vh;
+}
+
+.sm-img {
+  width: 100%;
 }
 
 .aboutsections {
-
-    width: 100%;
-    background-color: #ffdfb4;
-    ;
-}
-
-.pagesections {
-    width: 100%;
-    min-height: 100vh;
-    margin-top: -10px;
-    ;
-}
-
-#header {
-    background-image: linear-gradient(rgba(217, 216, 199, 0.44), rgba(253, 238, 178, 0.22), transparent), url(../img/closeup-cookies.png);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    max-height: 100vh;
+  width: 100%;
+  background-color: #ffdfb4;
 }
 
 .space {
-    background-image: linear-gradient(rgba(217, 216, 199, 0.44), rgba(253, 238, 178, 0.22), transparent), url(../img/closeup-cookies.png);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    height: 45vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(217, 216, 199, 0.44)), color-stop(rgba(253, 238, 178, 0.22)), to(transparent)), url(../img/closeup-cookies.png);
+  background-image: linear-gradient(rgba(217, 216, 199, 0.44), rgba(253, 238, 178, 0.22), transparent), url(../img/closeup-cookies.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 45vh;
 }
 
-
 #history {
-    background: #CCFFFF;
-    background: -webkit-linear-gradient(bottom left, #CCFFFF, #F3FCFB);
-    background: -moz-linear-gradient(bottom left, #CCFFFF, #F3FCFB);
-    background: linear-gradient(to bottom left, #CCFFFF, #F3FCFB);
-    background-size: cover;
+  background: #CCFFFF;
+  background: -webkit-gradient(linear, right top, left bottom, from(#CCFFFF), to(#F3FCFB));
+  background: linear-gradient(to bottom left, #CCFFFF, #F3FCFB);
+  background-size: cover;
+}
+
+#history .firstletter {
+  font-size: 40px;
+  font-family: 'Niconne', cursive;
+  line-height: 0.6;
+}
+
+#history .history-text {
+  font-family: 'Comfortaa', cursive;
+  color: #5f7a7a;
+  font-size: 13.5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: -2px;
+  margin-bottom: -15px;
+}
+
+#history .history-title {
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-top: -4px;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+}
+
+#history .historyh3 {
+  font-family: 'Sorts Mill Goudy', serif;
+  color: #e99670;
+}
+
+#history #stack,
+#history #twocook,
+#history #product {
+  max-height: 50px;
+}
+
+#history .credit {
+  color: #bebebe;
+  font-size: 12px;
+}
+
+#history .credit a {
+  text-decoration: none;
+  color: #aaaaaa;
+}
+
+#history .credit a:hover {
+  color: #bebebe;
 }
 
 #gallery {
-    background-color: #ffdfb4;
+  background-color: #ffdfb4;
+  /*card*/
 }
 
-#contact {
-
-
-    padding-top: 30px;
-
-
-    background-color: #dae3ff;
+.card-text {
+  font-family: 'Comfortaa', cursive;
 }
 
-
-
-
-.probootstrap-heading {
-    z-index: 1;
-}
-
-.mainheader {
-    padding: 25vh;
-}
-
-
-.toggler-icon-dots {
-    background-image: url(../img/more-button-interface-symbol-of-three-horizontal-aligned-dots2.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-
-
-.sm-img {
-    width: 100%;
-}
-
-.firstletter {
-    font-size: 40px;
-    font-family: 'Niconne', cursive;
-    line-height: 0.6;
-
-}
-
-
-
-
-
-section {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-
-
-/*card*/
 .card-body {
-    display: inline;
-}
-
-.history-text {
-    font-family: 'Comfortaa', cursive;
-    color: rgb(95, 122, 122);
-    font-size: 13.5px;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-top: -2px;
-    margin-bottom: -15px;
-}
-
-.history-title {
-    padding-left: 12px;
-    padding-right: 12px;
-    margin-top: -4px;
-    margin-bottom: 20px;
-    padding-bottom: 0;
+  display: inline;
 }
 
 .card-deck {
-    min-height: 100%;
+  min-height: 100%;
 }
 
 .card-nad {
-    height: 100%;
+  height: 100%;
 }
+
+#contact {
+  padding-top: 30px;
+  background-color: #dae3ff;
+}
+
+.navbar-toggler-icon {
+  background-image: url(../img/more-button-interface-symbol-of-three-horizontal-aligned-dots2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#contactUS .btn-success {
+  background-color: #2a9c9d;
+}
+
+footer {
+  background-color: #2a9c9d;
+}
+
+footer h6 {
+  color: #f78e43;
+}
+
+footer p {
+  color: #fdb078;
+}
+
+footer p a {
+  color: #fdb078;
+}
+
+footer p a:hover {
+  color: #f78e43;
+}
+
+footer .btn-sm {
+  border-radius: 50%;
+  background-color: #f0f0f0;
+}
+
+footer .fab {
+  color: #2a9c9d;
+}
+
+#Openinghours th {
+  background-color: #2a9c9d;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #fdb078;
+}
+/*# sourceMappingURL=style.css.map */
