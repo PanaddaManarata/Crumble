@@ -298,3 +298,18 @@ tr:nth-child(even) {
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+/*Credit for icons style*/
+.credit {
+  color: rgb(190, 190, 190);
+  font-size: 12px;
+}
+
+.credit a {
+  text-decoration: none;
+  color: rgb(170, 170, 170);
+}
+
+.credit a:hover {
+  color: rgb(190, 190, 190);
+}
