@@ -61,27 +61,13 @@ header {
         color: white;
         display: inline;
         padding: 5px;
-        margin-top: -40px;
-    }
-    .brandsm {
-        font-size: 25px;
-    }
-    .brandC {
-        font-size: 35px;
-    }
-    .brandxl {
-        color: white;
-        font-size: 130px;
-    }
-    .brandC2 {
-        font-size: 135px;
     }
     .navbar {
         z-index: 2;
+        width: 100%;
     }
     .bg-nav {
         margin-top: -50px;
-        width: 100%;
         background-color: white;
         opacity: 0.8;
     }
@@ -112,6 +98,28 @@ header {
     }
 }
 
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+.brandsm {
+    font-size: 25px;
+}
+
+.brandC {
+    font-size: 35px;
+}
+
+.brandxl {
+    color: white;
+    font-size: 130px;
+}
+
+.brandC2 {
+    font-size: 135px;
+}
+
 .aboutsections {
     width: 100%;
     background-color: #ffdfb4;
@@ -130,6 +138,7 @@ header {
     background-size: cover;
     color: white;
     height: 45vh;
+    width: 100%;
 }
 
 #history {
@@ -210,15 +219,10 @@ header {
     background-color: #dae3ff;
 }
 
-.navbar-toggler-icon {
-    background-image: url(../img/more-button-interface-symbol-of-three-horizontal-aligned-dots2.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 section {
     padding-top: 50px;
     padding-bottom: 50px;
+    width: 100%;
 }
 
 #contactUS .btn-success {

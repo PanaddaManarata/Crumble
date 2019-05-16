@@ -64,6 +64,8 @@ header .slogan {
   color: white;
   display: inline;
   padding: 5px;
+<<<<<<< HEAD
+=======
 }
 
 header .brandsm {
@@ -81,15 +83,16 @@ header .brandxl {
 
 header .brandC2 {
   font-size: 135px;
+>>>>>>> 6cd7f4dbdee733b3c0f66bb641911530782778a3
 }
 
 header .navbar {
   z-index: 2;
+  width: 100%;
 }
 
 header .bg-nav {
   margin-top: -50px;
-  width: 100%;
   background-color: white;
   opacity: 0.8;
 }
@@ -125,6 +128,28 @@ header .mainheader {
   padding: 25vh;
 }
 
+.row {
+  padding: 0;
+  margin: 0;
+}
+
+.brandsm {
+  font-size: 25px;
+}
+
+.brandC {
+  font-size: 35px;
+}
+
+.brandxl {
+  color: white;
+  font-size: 130px;
+}
+
+.brandC2 {
+  font-size: 135px;
+}
+
 .aboutsections {
   width: 100%;
   background-color: #ffdfb4;
@@ -144,6 +169,7 @@ header .mainheader {
   background-size: cover;
   color: white;
   height: 45vh;
+  width: 100%;
 }
 
 .firstletter {
@@ -231,15 +257,10 @@ header .mainheader {
   background-color: #dae3ff;
 }
 
-.navbar-toggler-icon {
-  background-image: url(../img/more-button-interface-symbol-of-three-horizontal-aligned-dots2.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 section {
   padding-top: 50px;
   padding-bottom: 50px;
+  width: 100%;
 }
 
 #contactUS .btn-success {
