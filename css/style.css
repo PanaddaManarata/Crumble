@@ -34,7 +34,7 @@ p,
 table {
   font-family: 'Comfortaa', cursive;
   text-align: left;
-  color: #044545;
+  color: #1e5b63;
 }
 
 header {
@@ -146,6 +146,19 @@ header .mainheader {
   height: 45vh;
 }
 
+.firstletter {
+  font-size: 40px;
+  font-family: 'Niconne', cursive;
+  line-height: 0.6;
+}
+
+.white {
+  font-size: 40px;
+  font-family: 'Niconne', cursive;
+  line-height: 0.6;
+  color: white;
+}
+
 #history {
   background: #CCFFFF;
   background: -webkit-gradient(linear, right top, left bottom, from(#CCFFFF), to(#F3FCFB));
@@ -230,27 +243,24 @@ section {
 }
 
 #contactUS .btn-success {
-  background-color: #2a9c9d;
+  background-color: #3ea9b8;
 }
 
 footer {
-  background-color: #2a9c9d;
-}
-
-footer h6 {
-  color: #f78e43;
+  background-color: #3ea9b8;
 }
 
 footer p {
-  color: #fdb078;
+  color: rgb(238, 239, 240);
 }
 
 footer p a {
-  color: #fdb078;
+  color: rgb(238, 239, 240);
 }
 
 footer p a:hover {
-  color: #f78e43;
+  color: #13717e;
+  text-decoration: none;
 }
 
 footer .btn-sm {
