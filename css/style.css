@@ -207,6 +207,10 @@ header .mainheader {
   /*card*/
 }
 
+#gallery .card-deck .card {
+  margin: 0;
+}
+
 .card-text {
   font-family: 'Comfortaa', cursive;
 }

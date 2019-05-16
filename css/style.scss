@@ -183,6 +183,9 @@ header {
 #gallery {
     background-color: #ffdfb4;
     /*card*/
+    .card-deck .card {
+        margin: 0
+    }
 }
 
 .card-text {
