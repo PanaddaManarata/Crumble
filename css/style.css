@@ -188,20 +188,6 @@ header .mainheader {
   max-height: 50px;
 }
 
-#history .credit {
-  color: #bebebe;
-  font-size: 12px;
-}
-
-#history .credit a {
-  text-decoration: none;
-  color: #aaaaaa;
-}
-
-#history .credit a:hover {
-  color: #bebebe;
-}
-
 #gallery {
   background-color: #ffdfb4;
   /*card*/
