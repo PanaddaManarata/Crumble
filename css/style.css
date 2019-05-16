@@ -34,7 +34,7 @@ p,
 table {
   font-family: 'Comfortaa', cursive;
   text-align: left;
-  color: #044545;
+  color: #1e5b63;
 }
 
 header {
@@ -64,6 +64,26 @@ header .slogan {
   color: white;
   display: inline;
   padding: 5px;
+<<<<<<< HEAD
+=======
+}
+
+header .brandsm {
+  font-size: 25px;
+}
+
+header .brandC {
+  font-size: 35px;
+}
+
+header .brandxl {
+  color: white;
+  font-size: 130px;
+}
+
+header .brandC2 {
+  font-size: 135px;
+>>>>>>> 6cd7f4dbdee733b3c0f66bb641911530782778a3
 }
 
 header .navbar {
@@ -152,6 +172,19 @@ header .mainheader {
   width: 100%;
 }
 
+.firstletter {
+  font-size: 40px;
+  font-family: 'Niconne', cursive;
+  line-height: 0.6;
+}
+
+.white {
+  font-size: 40px;
+  font-family: 'Niconne', cursive;
+  line-height: 0.6;
+  color: white;
+}
+
 #history {
   background: #CCFFFF;
   background: -webkit-gradient(linear, right top, left bottom, from(#CCFFFF), to(#F3FCFB));
@@ -194,20 +227,6 @@ header .mainheader {
   max-height: 50px;
 }
 
-#history .credit {
-  color: #bebebe;
-  font-size: 12px;
-}
-
-#history .credit a {
-  text-decoration: none;
-  color: #aaaaaa;
-}
-
-#history .credit a:hover {
-  color: #bebebe;
-}
-
 #gallery {
   background-color: #ffdfb4;
   /*card*/
@@ -245,27 +264,24 @@ section {
 }
 
 #contactUS .btn-success {
-  background-color: #2a9c9d;
+  background-color: #3ea9b8;
 }
 
 footer {
-  background-color: #2a9c9d;
-}
-
-footer h6 {
-  color: #f78e43;
+  background-color: #3ea9b8;
 }
 
 footer p {
-  color: #fdb078;
+  color: rgb(238, 239, 240);
 }
 
 footer p a {
-  color: #fdb078;
+  color: rgb(238, 239, 240);
 }
 
 footer p a:hover {
-  color: #f78e43;
+  color: #13717e;
+  text-decoration: none;
 }
 
 footer .btn-sm {
@@ -298,3 +314,18 @@ tr:nth-child(even) {
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+/*Credit for icons style*/
+.credit {
+  color: rgb(190, 190, 190);
+  font-size: 12px;
+}
+
+.credit a {
+  text-decoration: none;
+  color: rgb(170, 170, 170);
+}
+
+.credit a:hover {
+  color: rgb(190, 190, 190);
+}
