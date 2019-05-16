@@ -260,5 +260,11 @@ tr:nth-child(even) {
 @media only screen and (max-width: 768px) {
     .articleaboutus {
         margin: 0;
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+    .imgaboutus {
+        margin-left: 12.5%;
+        margin-right: 12.5%;
     }
 }
