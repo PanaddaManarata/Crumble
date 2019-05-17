@@ -10,12 +10,12 @@ In the group, we were each assigned to create 1 of 4 pages of this company's web
 
 # :eyeglasses: Sections
 
-## Landing Page :fireworks:
+## :fireworks: Landing Page :fireworks:
 Panadda was assigned the landing page which includes a navbar, parallax background, and a short introduction about the company.
 
 These images show a preview of the Landing Page section.
-![alt text]("")
-![alt text]("")
+![alt text](img/landingsnap1.png "landing1")
+![alt text](img/landingsnap2.png "landing2")
 #### Navbar
 The navbar is a white bar spanning the width of the page with an opacity. It includes our logo, and shortcuts to the about, history, gallery, and contact sections.
 #### Parallax Background
@@ -23,26 +23,26 @@ The parallax background is compiled from an image Panadda found on the unsplash 
 #### About
 The about section contains a small introductory text to the Crumble company.
 ### :pencil2:  How the Landing Page Works
-As a large display, the section consists of a full width navbar, background image, and about section. The links on the navbar are blue and become grey when hovered. The navbar turns into a hidden dropdown upon shrinking of the page, indicated by three yellow dots. The logo stays fixed in the top left-hand corner.
+As a large display, the section consists of a full width navbar, background image, and about section. The links on the navbar are blue and become grey when hovered. The navbar turns into a hidden dropdown upon shrinking of the page, indicated by three orange dots. The logo stays fixed in the top left-hand corner.
 The background is in a cover position and does not move when resizing the page. The about section is responsive. As a large display, the container is horizontal and reads so. Upon shrinking to a small screen, the section stacks upon itself and reads as a vertical card.
 
 *Navbar*
 
 XL - LG | MD - SM |
 --- | ---
-Full navbar list | Yellow dots dropdown
+Full navbar list | Orange dots dropdown
 
 *About Section*
 
 XL - MD | SM |
 --- | --- 
 Horizontal placement | Vertical placement
-## History :scroll:
+## :scroll: History :scroll:
 Allison was assigned the informational page which includes history, mission, and product sections. She also included 3 icon buttons on top which scroll to their respective elements upon clicking.
 
 These images show a preview of the History section.
-![alt text](assets/images/websnap3.png "history1")
-![alt text](assets/images/websnap4.png "history2")
+![alt text](img/websnap3.png "history1")
+![alt text](img/websnap4.png "history2")
 
 #### History
 For this section Allison looked up the history of the cookie on google and included select text that she thought suited the project and company.
@@ -62,12 +62,12 @@ Icon buttons on top | Icon buttons hidden
 
 The website is responsive. In the default stage (xl-lg) the icons at the top scroll smoothly to sections 1, 2, and 3 respectively. At the 2nd stage (xs-md) these icons become hidden and the cards become vertical and stack on top of each other.
 
-## Gallery :milky_way:
+## :milky_way: Gallery :milky_way:
 Nadir was assigned the Gallery section which includes two rows of cards showcasing the company's products with a short description.
 
 These images show a preview of the Gallery section.
-![alt text]("")
-![alt text]("")
+![alt text](img/gallerysnap1.png "gallery1")
+![alt text](img/gallerysnap2.png "gallery2")
 ##### Cards
 The card divs are set to flex stretch to have uniform height. There is an image in each card that is set to a uniform ratio so they all conform. Under the image on each card is a short description of the aforementioned product/cookie.
 
@@ -79,12 +79,14 @@ XL - LG | MD | SM |
 --- | --- | --- 
 4 cards per row | 2 cards per row | 1 card per row
 2 rows | 4 rows | 8 rows
-## Contact :round_pushpin:
+## :round_pushpin: Contact :round_pushpin:
 Laurens was assigned the Contact section which includes the opening hours, address, a contact form, and the footer.
 
 These images show a preview of the Contact section.
-![alt text]("")
-![alt text]("")
+![alt text](img/contactsnap1.png "contact1")
+![alt text](img/contactsnap2.png "contact2")
+![alt text](img/contactsnap3.png "contact3")
+![alt text](img/contactsnap4.png "contact4")
 #### Opening Hours
 The opening hours section contains a table of the opening hours with an 'open sign' photo next to it.
 #### Address
@@ -101,6 +103,6 @@ As a large display, the section consists of opening hours, address, contact form
 XL - LG | MD - SM |
 --- | --- 
 Elements horizontal | Elements vertical
-## Logo :hotsprings:
+## :hotsprings: Logo :hotsprings:
 The logo was a group effort to find the font of the logo which is Niconne. We stylized the C in 'crumble' to be bigger and Allison created the cookie logo to go with it.
 **Logo image here and text img beside it**
