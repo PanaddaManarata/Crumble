@@ -29,11 +29,11 @@ p,
 table {
   font-family: 'Comfortaa', cursive;
   text-align: left;
-  color: #044545;
+  color: #1e5b63;
 }
 
 .logo {
-  max-height: 90px;
+  max-height: 80px;
   margin-top: -50px;
 }
 
@@ -158,6 +158,19 @@ a:hover {
   width: 100%;
 }
 
+.firstletter {
+  font-size: 40px;
+  font-family: 'Niconne', cursive;
+  line-height: 0.6;
+}
+
+.white {
+  font-size: 40px;
+  font-family: 'Niconne', cursive;
+  line-height: 0.6;
+  color: white;
+}
+
 #history {
   background: #CCFFFF;
   background: -webkit-gradient(linear, right top, left bottom, from(#CCFFFF), to(#F3FCFB));
@@ -260,7 +273,7 @@ section {
 }
 
 #contactUS .btn-success {
-  background-color: #2a9c9d;
+  background-color: #3ea9b8;
 }
 
 footer {
@@ -268,19 +281,20 @@ footer {
 }
 
 footer h6 {
-  color: #f78e43;
+  color: rgb(238, 239, 240);
 }
 
 footer p {
-  color: #fdb078;
+  color: rgb(238, 239, 240);
 }
 
 footer p a {
-  color: #fdb078;
+  color: rgb(238, 239, 240);
 }
 
 footer p a:hover {
-  color: #f78e43;
+  color: #13717e;
+  text-decoration: none;
 }
 
 footer .btn-sm {
@@ -298,7 +312,7 @@ footer .fab {
 }
 
 tr:nth-child(even) {
-  background-color: #fdb078;
+  background-color: #5bc8ca;
 }
 
 @media only screen and (max-width: 768px) {
@@ -334,3 +348,18 @@ tr:nth-child(even) {
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+/*Credit for icons style*/
+.credit {
+  color: rgb(190, 190, 190);
+  font-size: 12px;
+}
+
+.credit a {
+  text-decoration: none;
+  color: rgb(170, 170, 170);
+}
+
+.credit a:hover {
+  color: rgb(190, 190, 190);
+}
