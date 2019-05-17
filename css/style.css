@@ -86,13 +86,14 @@ header {
   font-family: 'Niconne', cursive;
 }
 
-.slogan {
+p.slogan {
   font-size: 25px;
   text-align: center;
   font-weight: bolder;
   color: white;
   display: inline;
   padding: 5px;
+  font-family: 'Comfortaa', cursive;
 }
 
 .navbar {
