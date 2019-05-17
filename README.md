@@ -85,8 +85,8 @@ Laurens was assigned the Contact section which includes the opening hours, addre
 These images show a preview of the Contact section.
 ![alt text](img/contactsnap1.png "contact1")
 ![alt text](img/contactsnap2.png "contact2")
-![alt text](img/contactsnap3.png "contact3")
-![alt text](img/contactsnap4.png "contact4")
+![alt text](img/contactsnap5.png "contact3")
+![alt text](img/contactsnap6.png "contact4")
 #### Opening Hours
 The opening hours section contains a table of the opening hours with an 'open sign' photo next to it.
 #### Address
