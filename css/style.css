@@ -305,6 +305,11 @@ section {
   margin-left: 15px;
 }
 
+.contactsection {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 footer {
   background-color: #3ea9b8;
 }
