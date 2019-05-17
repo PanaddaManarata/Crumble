@@ -38,8 +38,13 @@ table {
 }
 
 .logo {
-  max-height: 80px;
+  max-height: 90px;
   margin-top: -50px;
+}
+
+.bluelogo {
+  max-height: 25px;
+  margin-top: -16px;
 }
 
 header {
