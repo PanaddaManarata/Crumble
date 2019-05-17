@@ -17,15 +17,25 @@ h5,
 h6 {
   font-family: 'Sorts Mill Goudy', serif;
   padding-bottom: 20px;
-  color: #055252;
+  color: #5f7a7a;
 }
 
 h3 {
   font-family: 'Sorts Mill Goudy', serif;
-  color: #055252;
+  color: #5f7a7a;
 }
 
-p,
+h3.abouttitle {
+  font-family: 'Sorts Mill Goudy', serif;
+  color: #179b9b;
+}
+
+p {
+  color: #9e420c;
+  font-family: 'Comfortaa', cursive;
+  text-align: left;
+}
+
 table {
   font-family: 'Comfortaa', cursive;
   text-align: left;
