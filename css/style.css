@@ -86,7 +86,7 @@ header {
   font-family: 'Niconne', cursive;
 }
 
-p.slogan {
+.slogan {
   font-size: 25px;
   text-align: center;
   font-weight: bolder;
