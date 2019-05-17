@@ -6,11 +6,10 @@ font-family: 'Sorts Mill Goudy', serif;
 p
 font-family: 'Comfortaa', cursive;
 */
-/* line 10, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
 html {
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+}
 
-/* line 14, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
 h1,
 h2,
 h4,
@@ -18,31 +17,55 @@ h5,
 h6 {
   font-family: 'Sorts Mill Goudy', serif;
   padding-bottom: 20px;
-  color: #055252; }
+  color: #5f7a7a;
+}
 
-/* line 24, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
 h3 {
   font-family: 'Sorts Mill Goudy', serif;
-  color: #055252; }
+  color: #5f7a7a;
+}
 
-/* line 29, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
-p,
+h3.abouttitle {
+  font-family: 'Sorts Mill Goudy', serif;
+  color: #179b9b;
+}
+
+p.abouttext {
+  color: #9e420c;
+  font-family: 'Comfortaa', cursive;
+  text-align: left;
+  font-size: 15.5px;
+}
+
+.card-title {
+  font-family: 'Sorts Mill Goudy', serif;
+  color: #e99670;
+  font-size: 26px;
+}
+
+.card-text {
+  color: #5f7a7a;
+  font-family: 'Comfortaa', cursive;
+  text-align: left;
+  font-size: 14px;
+}
+
 table {
   font-family: 'Comfortaa', cursive;
   text-align: left;
-  color: #044545; }
+  color: #1e5b63;
+}
 
-/* line 36, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
 .logo {
-  max-height: 90px;
-  margin-top: -50px; }
+  max-height: 80px;
+  margin-top: -50px;
+}
 
-/* line 41, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
 .bluelogo {
   max-height: 25px;
-  margin-top: -16px; }
+  margin-top: -16px;
+}
 
-/* line 46, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
 header {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(217, 216, 199, 0.44)), color-stop(rgba(253, 238, 178, 0.22)), to(transparent)), url(../img/closeup-cookies.png);
   background-image: linear-gradient(rgba(217, 216, 199, 0.44), rgba(253, 238, 178, 0.22), transparent), url(../img/closeup-cookies.png);
@@ -56,96 +79,98 @@ header {
   min-height: 100vh;
   margin-top: -10px;
   padding-top: 50px;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+}
 
-/* line 62, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
 .brandtypo {
-  font-family: 'Niconne', cursive; }
+  font-family: 'Niconne', cursive;
+}
 
-/* line 66, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
 .slogan {
   font-size: 25px;
   text-align: center;
   font-weight: bolder;
   color: white;
   display: inline;
-  padding: 5px; }
+  padding: 5px;
+  font-family: 'Comfortaa', cursive;
+}
 
-/* line 75, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
 .navbar {
   z-index: 2;
-  width: 100%; }
+  width: 100%;
+}
 
-/* line 80, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
 .bg-nav {
   margin-top: -50px;
   background-color: white;
-  opacity: 0.8; }
+  opacity: 0.8;
+}
 
-/* line 86, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
 a {
   color: #15b2d6;
   padding-left: 20px;
   text-align: center;
   opacity: 1;
   z-index: 1;
-  font-family: 'Comfortaa', cursive; }
-  /* line 93, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
-  a:hover {
-    color: #a38a8a; }
+  font-family: 'Comfortaa', cursive;
+}
 
-/* line 98, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
+a:hover {
+  color: #a38a8a;
+}
+
 .nav-item {
   padding-left: 20px;
-  font-weight: bolder; }
+  font-weight: bolder;
+}
 
-/* line 103, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
 .navbar-toggler-icon {
   background-image: url(../img/button-menu.png);
-  padding: 20px; }
+  padding: 20px;
+}
 
-/* line 108, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
 .probootstrap-heading {
-  z-index: 1; }
+  z-index: 1;
+}
 
-/* line 112, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
 .mainheader {
   margin-top: 12.5%;
-  margin-bottom: 12.5%; }
+  margin-bottom: 12.5%;
+}
 
-/* line 117, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
 .row {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
 
-/* line 122, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
 .brandsm {
-  font-size: 25px; }
+  font-size: 25px;
+}
 
-/* line 126, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
 .brandC {
-  font-size: 35px; }
+  font-size: 35px;
+}
 
-/* line 130, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
 .brandxl {
   color: white;
-  font-size: 130px; }
+  font-size: 130px;
+}
 
-/* line 135, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
 .brandC2 {
-  font-size: 135px; }
+  font-size: 135px;
+}
 
-/* line 139, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
 .aboutsections {
   width: 100%;
-  background-color: #ffdfb4; }
+  background-color: #ffdfb4;
+}
 
-/* line 144, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
 .articleaboutus {
   margin-bottom: 25%;
-  margin-top: 25%; }
+  margin-top: 25%;
+}
 
-/* line 149, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
 .space {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(217, 216, 199, 0.44)), color-stop(rgba(253, 238, 178, 0.22)), to(transparent)), url(../img/closeup-cookies.png);
   background-image: linear-gradient(rgba(217, 216, 199, 0.44), rgba(253, 238, 178, 0.22), transparent), url(../img/closeup-cookies.png);
@@ -155,164 +180,211 @@ a {
   background-size: cover;
   color: white;
   height: 45vh;
-  width: 100%; }
+  width: 100%;
+}
 
-/* line 161, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
+.firstletter {
+  font-size: 40px;
+  font-family: 'Niconne', cursive;
+  line-height: 0.6;
+}
+
+.white {
+  font-size: 40px;
+  font-family: 'Niconne', cursive;
+  line-height: 0.6;
+  color: white;
+}
+
 #history {
   background: #CCFFFF;
   background: -webkit-gradient(linear, right top, left bottom, from(#CCFFFF), to(#F3FCFB));
   background: linear-gradient(to bottom left, #CCFFFF, #F3FCFB);
-  background-size: cover; }
-  /* line 166, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
-  #history .firstletter {
-    font-size: 40px;
-    font-family: 'Niconne', cursive;
-    line-height: 0.6; }
-  /* line 171, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
-  #history .history-text {
-    font-family: 'Comfortaa', cursive;
-    color: #5f7a7a;
-    font-size: 13.5px;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-top: -2px;
-    margin-bottom: -15px; }
-  /* line 180, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
-  #history .history-title {
-    padding-left: 12px;
-    padding-right: 12px;
-    margin-top: -4px;
-    margin-bottom: 20px;
-    padding-bottom: 0; }
-  /* line 187, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
-  #history .historyh3 {
-    font-family: 'Sorts Mill Goudy', serif;
-    color: #e99670; }
-  /* line 191, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
-  #history #History, #history #mission, #history #Product {
-    margin-left: 12.5%;
-    margin-right: 12.5%; }
-  /* line 195, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
-  #history .card-img {
-    height: 100%; }
-  /* line 207, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
-  #history #stack,
-  #history #twocook,
-  #history #product {
-    max-height: 50px; }
-  /* line 212, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
-  #history .credit {
-    color: #bebebe;
-    font-size: 12px; }
-    /* line 215, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
-    #history .credit a {
-      text-decoration: none;
-      color: #aaaaaa; }
-      /* line 218, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
-      #history .credit a:hover {
-        color: #bebebe; }
+  background-size: cover;
+}
 
-/* line 225, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
+#history .firstletter {
+  font-size: 40px;
+  font-family: 'Niconne', cursive;
+  line-height: 0.6;
+}
+
+#history .history-text {
+  font-family: 'Comfortaa', cursive;
+  color: #5f7a7a;
+  font-size: 13.5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: -2px;
+  margin-bottom: -15px;
+}
+
+#history .history-title {
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-top: -4px;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+}
+
+#history .historyh3 {
+  font-family: 'Sorts Mill Goudy', serif;
+  color: #e99670;
+}
+
+#history #History, #history #mission, #history #Product {
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+}
+
+#history .card-img {
+  height: 100%;
+}
+
+#history #stack,
+#history #twocook,
+#history #product {
+  max-height: 50px;
+}
+
+#history .credit {
+  color: #bebebe;
+  font-size: 12px;
+}
+
+#history .credit a {
+  text-decoration: none;
+  color: #aaaaaa;
+}
+
+#history .credit a:hover {
+  color: #bebebe;
+}
+
 #gallery {
   background-color: #ffdfb4;
-  /*card*/ }
-  /* line 228, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
-  #gallery .card-deck .card {
-    margin: 0; }
+  /*card*/
+}
 
-/* line 233, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
+#gallery .card-deck .card {
+  margin: 0;
+}
+
 .card-text {
-  font-family: 'Comfortaa', cursive; }
+  font-family: 'Comfortaa', cursive;
+}
 
-/* line 237, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
 .card-body {
-  display: inline; }
+  display: inline;
+}
 
-/* line 241, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
 .card-deck {
-  min-height: 100%; }
+  min-height: 100%;
+}
 
-/* line 245, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
 .card-nad {
-  height: 100%; }
+  height: 100%;
+}
 
-/* line 249, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
 #contact {
   padding-top: 30px;
-  background-color: #dae3ff; }
+  background-color: #dae3ff;
+}
 
-/* line 254, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
 section {
   padding-top: 50px;
   padding-bottom: 50px;
-  width: 100%; }
+  width: 100%;
+}
 
-/* line 260, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
 #contactUS .btn-success {
-  background-color: #2a9c9d; }
+  background-color: #3ea9b8;
+}
 
-/* line 264, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
 footer {
-  background-color: #2a9c9d; }
-  /* line 266, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
-  footer h6 {
-    color: #f78e43; }
-  /* line 269, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
-  footer p {
-    color: #fdb078; }
-    /* line 271, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
-    footer p a {
-      color: #fdb078; }
-      /* line 273, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
-      footer p a:hover {
-        color: #f78e43; }
-  /* line 278, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
-  footer .btn-sm {
-    border-radius: 50%;
-    background-color: #f0f0f0; }
-  /* line 282, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
-  footer .fab {
-    color: #2a9c9d; }
+  background-color: #2a9c9d;
+}
 
-/* line 287, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
+footer h6 {
+  color: rgb(238, 239, 240);
+}
+
+footer p {
+  color: rgb(238, 239, 240);
+}
+
+footer p a {
+  color: rgb(238, 239, 240);
+}
+
+footer p a:hover {
+  color: #13717e;
+  text-decoration: none;
+}
+
+footer .btn-sm {
+  border-radius: 50%;
+  background-color: #f0f0f0;
+}
+
+footer .fab {
+  color: #2a9c9d;
+}
+
 #Openinghours th {
   background-color: #2a9c9d;
-  color: white; }
+  color: white;
+}
 
-/* line 292, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
 tr:nth-child(even) {
-  background-color: #fdb078; }
+  background-color: #5bc8ca;
+}
 
 @media only screen and (max-width: 768px) {
-  /* line 297, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
   .articleaboutus {
     margin: 0;
     margin-right: 25%;
-    margin-left: 25%; }
-  /* line 302, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
+    margin-left: 25%;
+  }
   .imgaboutus {
     margin-left: 12.5%;
-    margin-right: 12.5%; }
-  /* line 306, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
+    margin-right: 12.5%;
+  }
   .StoreFrontImg {
-    margin-top: 2%; } }
+    margin-top: 2%;
+  }
+}
 
 @media only screen and (max-width: 434px) {
-  /* line 312, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
   .brandxl {
     color: white;
-    font-size: 75px; }
-  /* line 316, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
+    font-size: 75px;
+  }
   .slogan {
-    font-size: 18px; } }
+    font-size: 18px;
+  }
+}
 
 @media only screen and (max-width: 474px) {
-  /* line 322, /home/test/Desktop/becode_projects/Crumble/css/style.scss */
   #marginghistory {
     width: 95%;
     margin-left: auto;
-    margin-right: auto; } }
-
+    margin-right: auto;
+  }
+}
 /*# sourceMappingURL=style.css.map */
 
-/*# sourceMappingURL=style.css.map */
+/*Credit for icons style*/
+.credit {
+  color: rgb(190, 190, 190);
+  font-size: 12px;
+}
+
+.credit a {
+  text-decoration: none;
+  color: rgb(170, 170, 170);
+}
+
+.credit a:hover {
+  color: rgb(190, 190, 190);
+}
