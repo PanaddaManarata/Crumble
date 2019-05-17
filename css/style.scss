@@ -200,6 +200,27 @@ a {
     }
 }
 
+%marginghistory {
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+.card-img {
+    height: 100%;
+}
+
+#History {
+    @extend %marginghistory;
+}
+
+#mission {
+    @extend %marginghistory;
+}
+
+#Product {
+    @extend %marginghistory;
+}
+
 #gallery {
     background-color: #ffdfb4;
     /*card*/
@@ -298,5 +319,18 @@ tr:nth-child(even) {
         width: 95%;
         margin-left: auto;
         margin-right: auto;
+    }
+    %Margin0History {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #History {
+        @extend %Margin0History;
+    }
+    #mission {
+        @extend %Margin0History;
+    }
+    #Product {
+        @extend %Margin0History;
     }
 }
