@@ -1,15 +1,10 @@
 /*
-
 brand
 font-family: 'Niconne', cursive; 
-
 Header
 font-family: 'Sorts Mill Goudy', serif;
-
 p
 font-family: 'Comfortaa', cursive;
-
-
 */
 
 html {
@@ -38,7 +33,18 @@ table {
     color: #044545;
 }
 
+.logo {
+    max-height: 90px;
+    margin-top: -50px;
+}
+
+.bluelogo {
+    max-height: 25px;
+    margin-top: -16px;
+}
+
 header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(217, 216, 199, 0.44)), color-stop(rgba(253, 238, 178, 0.22)), to(transparent)), url(../img/closeup-cookies.png);
     background-image: linear-gradient(rgba(217, 216, 199, 0.44), rgba(253, 238, 178, 0.22), transparent), url(../img/closeup-cookies.png);
     background-attachment: fixed;
     background-position: center;
@@ -141,6 +147,7 @@ a {
 }
 
 .space {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(217, 216, 199, 0.44)), color-stop(rgba(253, 238, 178, 0.22)), to(transparent)), url(../img/closeup-cookies.png);
     background-image: linear-gradient(rgba(217, 216, 199, 0.44), rgba(253, 238, 178, 0.22), transparent), url(../img/closeup-cookies.png);
     background-attachment: fixed;
     background-position: center;
@@ -153,8 +160,7 @@ a {
 
 #history {
     background: #CCFFFF;
-    background: -webkit-linear-gradient(bottom left, #CCFFFF, #F3FCFB);
-    background: -moz-linear-gradient(bottom left, #CCFFFF, #F3FCFB);
+    background: -webkit-gradient(linear, right top, left bottom, from(#CCFFFF), to(#F3FCFB));
     background: linear-gradient(to bottom left, #CCFFFF, #F3FCFB);
     background-size: cover;
     .firstletter {
@@ -164,7 +170,7 @@ a {
     }
     .history-text {
         font-family: 'Comfortaa', cursive;
-        color: rgb(95, 122, 122);
+        color: #5f7a7a;
         font-size: 13.5px;
         padding-left: 40px;
         padding-right: 40px;
@@ -180,7 +186,23 @@ a {
     }
     .historyh3 {
         font-family: 'Sorts Mill Goudy', serif;
-        color: rgb(233, 150, 112);
+        color: #e99670;
+    }
+    %MarginHistory {
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+    }
+    .card-img {
+        height: 100%;
+    }
+    #History {
+        @extend %MarginHistory;
+    }
+    #mission {
+        @extend %MarginHistory;
+    }
+    #Product {
+        @extend %MarginHistory;
     }
     #stack,
     #twocook,
@@ -188,44 +210,23 @@ a {
         max-height: 50px;
     }
     .credit {
-        color: rgb(190, 190, 190);
+        color: #bebebe;
         font-size: 12px;
         a {
             text-decoration: none;
-            color: rgb(170, 170, 170);
+            color: #aaaaaa;
             &:hover {
-                color: rgb(190, 190, 190);
+                color: #bebebe;
             }
         }
     }
-}
-
-%marginghistory {
-    margin-left: 12.5%;
-    margin-right: 12.5%;
-}
-
-.card-img {
-    height: 100%;
-}
-
-#History {
-    @extend %marginghistory;
-}
-
-#mission {
-    @extend %marginghistory;
-}
-
-#Product {
-    @extend %marginghistory;
 }
 
 #gallery {
     background-color: #ffdfb4;
     /*card*/
     .card-deck .card {
-        margin: 0
+        margin: 0;
     }
 }
 
@@ -302,8 +303,8 @@ tr:nth-child(even) {
         margin-left: 12.5%;
         margin-right: 12.5%;
     }
-    .storefrontimg {
-        margin-top: 5%;
+    .StoreFrontImg {
+        margin-top: 2%;
     }
 }
 
@@ -323,17 +324,7 @@ tr:nth-child(even) {
         margin-left: auto;
         margin-right: auto;
     }
-    %Margin0History {
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #History {
-        @extend %Margin0History;
-    }
-    #mission {
-        @extend %Margin0History;
-    }
-    #Product {
-        @extend %Margin0History;
-    }
 }
+
+
+/*# sourceMappingURL=style.css.map */
