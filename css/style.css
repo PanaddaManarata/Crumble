@@ -37,11 +37,6 @@ table {
   color: #044545;
 }
 
-.logo {
-  max-height: 90px;
-  margin-top: -50px;
-}
-
 header {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(217, 216, 199, 0.44)), color-stop(rgba(253, 238, 178, 0.22)), to(transparent)), url(../img/closeup-cookies.png);
   background-image: linear-gradient(rgba(217, 216, 199, 0.44), rgba(253, 238, 178, 0.22), transparent), url(../img/closeup-cookies.png);
@@ -310,6 +305,9 @@ tr:nth-child(even) {
   .imgaboutus {
     margin-left: 12.5%;
     margin-right: 12.5%;
+  }
+  .storefrontimg {
+    margin-top: 5%;
   }
 }
 
