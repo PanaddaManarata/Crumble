@@ -37,6 +37,19 @@ table {
   color: #044545;
 }
 
+<<<<<<< HEAD
+=======
+.logo {
+  max-height: 90px;
+  margin-top: -50px;
+}
+
+.logoblue {
+  max-height: 25px;
+  margin-top: -15px;
+}
+
+>>>>>>> fd22232756103a0cb7223b4085435d181af4cedc
 header {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(217, 216, 199, 0.44)), color-stop(rgba(253, 238, 178, 0.22)), to(transparent)), url(../img/closeup-cookies.png);
   background-image: linear-gradient(rgba(217, 216, 199, 0.44), rgba(253, 238, 178, 0.22), transparent), url(../img/closeup-cookies.png);
