@@ -2,7 +2,7 @@
 
 # :cookie: Crumble
 
-We were placed into a group of 4 persons to compile a website based on a company created by us. The members of our group were (on Github) Lisonallie, PanaddaManarata, LaurensNelen, and NadirAlaoui. We agreed to create a cookie company named Crumble. The company is figuratively a cookie-giant who sells quality, made-with-love cookies and uses fresh ingredients sourced from the best suppliers.
+We were placed into a group of 4 persons to compile a website based on a company created by us. The members of our group were (on Github) Lisonallie, PanaddaManarata, LaurensNelen, and NadirAlaoui1. We agreed to create a cookie company named Crumble. The company is figuratively a cookie-giant who sells quality, made-with-love cookies and uses fresh ingredients sourced from the best suppliers.
 
 In the group, we were each assigned to create 1 of 4 pages of this company's website and merge them into 1 page. These 4 sections were: Landing Page, Gallery, History, and Contact. We will go over each section in detail below.
 
