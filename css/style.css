@@ -34,7 +34,12 @@ p,
 table {
   font-family: 'Comfortaa', cursive;
   text-align: left;
-  color: #1e5b63;
+  color: #044545;
+}
+
+.logo {
+  max-height: 80px;
+  margin-top: -50px;
 }
 
 header {
@@ -53,11 +58,11 @@ header {
   padding-bottom: 50px;
 }
 
-header .brandtypo {
+.brandtypo {
   font-family: 'Niconne', cursive;
 }
 
-header .slogan {
+.slogan {
   font-size: 25px;
   text-align: center;
   font-weight: bolder;
@@ -66,35 +71,18 @@ header .slogan {
   padding: 5px;
 }
 
-header .brandsm {
-  font-size: 25px;
-}
-
-header .brandC {
-  font-size: 35px;
-}
-
-header .brandxl {
-  color: white;
-  font-size: 130px;
-}
-
-header .brandC2 {
-  font-size: 135px;
-}
-
-header .navbar {
+.navbar {
   z-index: 2;
   width: 100%;
 }
 
-header .bg-nav {
+.bg-nav {
   margin-top: -50px;
   background-color: white;
   opacity: 0.8;
 }
 
-header a {
+a {
   color: #15b2d6;
   padding-left: 20px;
   text-align: center;
@@ -103,26 +91,27 @@ header a {
   font-family: 'Comfortaa', cursive;
 }
 
-header a:hover {
+a:hover {
   color: #a38a8a;
 }
 
-header .nav-item {
+.nav-item {
   padding-left: 20px;
   font-weight: bolder;
 }
 
-header .navbar-toggler-icon {
+.navbar-toggler-icon {
   background-image: url(../img/button-menu.png);
   padding: 20px;
 }
 
-header .probootstrap-heading {
+.probootstrap-heading {
   z-index: 1;
 }
 
-header .mainheader {
-  padding: 25vh;
+.mainheader {
+  margin-top: 12.5%;
+  margin-bottom: 12.5%;
 }
 
 .row {
@@ -169,19 +158,6 @@ header .mainheader {
   width: 100%;
 }
 
-.firstletter {
-  font-size: 40px;
-  font-family: 'Niconne', cursive;
-  line-height: 0.6;
-}
-
-.white {
-  font-size: 40px;
-  font-family: 'Niconne', cursive;
-  line-height: 0.6;
-  color: white;
-}
-
 #history {
   background: #CCFFFF;
   background: -webkit-gradient(linear, right top, left bottom, from(#CCFFFF), to(#F3FCFB));
@@ -224,6 +200,20 @@ header .mainheader {
   max-height: 50px;
 }
 
+#history .credit {
+  color: #bebebe;
+  font-size: 12px;
+}
+
+#history .credit a {
+  text-decoration: none;
+  color: #aaaaaa;
+}
+
+#history .credit a:hover {
+  color: #bebebe;
+}
+
 #gallery {
   background-color: #ffdfb4;
   /*card*/
@@ -261,24 +251,27 @@ section {
 }
 
 #contactUS .btn-success {
-  background-color: #3ea9b8;
+  background-color: #2a9c9d;
 }
 
 footer {
-  background-color: #3ea9b8;
+  background-color: #2a9c9d;
+}
+
+footer h6 {
+  color: #f78e43;
 }
 
 footer p {
-  color: rgb(238, 239, 240);
+  color: #fdb078;
 }
 
 footer p a {
-  color: rgb(238, 239, 240);
+  color: #fdb078;
 }
 
 footer p a:hover {
-  color: #13717e;
-  text-decoration: none;
+  color: #f78e43;
 }
 
 footer .btn-sm {
@@ -310,19 +303,22 @@ tr:nth-child(even) {
     margin-right: 12.5%;
   }
 }
+
+@media only screen and (max-width: 434px) {
+  .brandxl {
+    color: white;
+    font-size: 75px;
+  }
+  .slogan {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 474px) {
+  #marginghistory {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 /*# sourceMappingURL=style.css.map */
-
-/*Credit for icons style*/
-.credit {
-  color: rgb(190, 190, 190);
-  font-size: 12px;
-}
-
-.credit a {
-  text-decoration: none;
-  color: rgb(170, 170, 170);
-}
-
-.credit a:hover {
-  color: rgb(190, 190, 190);
-}
