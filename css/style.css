@@ -34,18 +34,20 @@ p.abouttext {
   color: #9e420c;
   font-family: 'Comfortaa', cursive;
   text-align: left;
+  font-size: 15.5px;
 }
 
 .card-title {
   font-family: 'Sorts Mill Goudy', serif;
   color: #e99670;
-  font-size: 28px;
+  font-size: 26px;
 }
 
 .card-text {
   color: #5f7a7a;
   font-family: 'Comfortaa', cursive;
   text-align: left;
+  font-size: 14px;
 }
 
 table {
