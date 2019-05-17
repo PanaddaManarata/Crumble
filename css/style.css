@@ -219,6 +219,15 @@ a:hover {
   color: #bebebe;
 }
 
+#History, #mission, #Product {
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+}
+
+.card-img {
+  height: 100%;
+}
+
 #gallery {
   background-color: #ffdfb4;
   /*card*/
@@ -324,6 +333,10 @@ tr:nth-child(even) {
     width: 95%;
     margin-left: auto;
     margin-right: auto;
+  }
+  #History, #mission, #Product {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
